@@ -1,0 +1,108 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Gallo",
+      "email": "gallo@gallo.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "Indiano",
+      "email": "indiano@val.com",
+      "senha": "654321"
+    },
+    {
+      "id": 3,
+      "nome": "Carneiro",
+      "email": "carneiro@carneiro.com",
+      "senha": "987654321"
+    },
+    {
+      "nome": "Rose",
+      "email": "rose@rose.com",
+      "senha": "gahjsajhgsj",
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "data_pedido": "2023-03-31",
+      "total": 124.24
+    },
+    {
+      "id": 2,
+      "id_cliente": 3,
+      "data_pedido": "2023-03-01",
+      "total": 300.5
+    },
+    {
+      "id": 3,
+      "id_cliente": 1,
+      "data_pedido": "2023-03-31",
+      "total": 124.24
+    }
+  ],
+  "itens_pedidos": [
+    {
+      "id_pedido": 1,
+      "id_produto": 1,
+      "preco_unitario": 12.12,
+      "quantidade": 2,
+      "preco_total": 24.24
+    },
+    {
+      "id_pedido": 1,
+      "id_produto": 3,
+      "preco_unitario": 50,
+      "quantidade": 2,
+      "preco_total": 100
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 2,
+      "preco_unitario": 200,
+      "quantidade": 1,
+      "preco_total": 200
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 3,
+      "preco_unitario": 50,
+      "quantidade": 2,
+      "preco_total": 100
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 1,
+      "preco_unitario": 12.12,
+      "quantidade": 2,
+      "preco_total": 24.24
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Batata",
+      "descrição": "Batata frita",
+      "preco": 12.12,
+      "nome_imagem": "batata.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Fardo",
+      "descrição": "Cerveja",
+      "preco": 50,
+      "nome_imagem": "fardinho.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Hamburguer",
+      "descrição": "Lanches",
+      "preco": 50,
+      "nome_imagem": "lanchinho.png"
+    }
+  ]
+}
